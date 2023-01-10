@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,100;1,500&display=swap');
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: url('assets/wallpaper.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 40%;
+  top:2%;
+  transform-origin: center;
+  justify-content: space-between;
+
+}
+
+.menu li {
+  margin: 0 10px;
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.menu a:hover {
+  background-color: #c81000;
+  color: #fff;
+  padding: 2px;
+}
+
+.formulaire{
+  position: absolute;
+  top: 40%;
+  left: 25%;
+}
+
+.formulaire>.form{
+  width: 500px;
+  background-color: rgba(33, 33, 33, 0.5);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 60%;
+}
+
+.formulaire>.form>label{
+  margin: 20px 0;
+  
+}
+.formulaire>.form>input{
+  margin: 20px 0;
+  
+}
+form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 1200px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 20px;
+  transform-origin: center;
+  background-color: rgba(33, 33, 33, 0.5);
+}
+
+label {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  box-shadow: #333 2px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+input[type="submit"],
+.btn-details {
+
+  width: 25%;
+  padding: 10px;
+  background-color: #c81000;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+p {
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  margin: 1% auto;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 20px;
+  position: relative;
+  left: 60%;
+  background-color: rgba(33, 33, 33, 0.5);
+}
+
+.card p {
+  margin: 10px 0;
+  font-size: 14px;
+  color: #ddd;
+
+}
+
+input[type="date"] {
+  appearance: none;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  padding: 5px 10px;
+  width: 200px;
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-outer-spin-button {
+  appearance: none;
+  margin: 0;
+}
+
+.addToFav {
+  width: 10%;
+  align-content: center;
+  margin: auto;
+}
+
+.favoris{
+  position: absolute;
+  top:20%;
+  left:47%;
+  color: #fff;
+}
