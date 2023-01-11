@@ -42,13 +42,13 @@ code {
 .menu a:hover {
   background-color: #009DDA;
   color: #fff;
-  padding: 2px;
 }
 
 .formulaire{
   position: absolute;
-  top: 40%;
-  left: 25%;
+  top: 30%;
+  left: 42%;
+  margin: -50px 0 0 -50px;
 }
 
 .formulaire>.form{
@@ -70,14 +70,13 @@ code {
 }
 form {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  width: 1200px;
   margin: 0 auto;
   border: 1px solid #009DDA;
   border-radius: 4px;
-  padding: 20px;
+  padding: 100px;
   transform-origin: center;
   background-color: rgba(33, 33, 33, 0.5);
 }
@@ -101,7 +100,7 @@ input[type="text"] {
 input[type="submit"],
 .btn-details {
 
-  width: 25%;
+
   padding: 10px;
   background-color: #009DDA;
   color: white;
@@ -110,6 +109,7 @@ input[type="submit"],
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  margin-top: 10px;
 }
 
 
