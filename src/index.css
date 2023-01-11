@@ -24,6 +24,7 @@ code {
   top:2%;
   transform-origin: center;
   justify-content: space-between;
+  background-color: #282c34;
 
 }
 
@@ -39,7 +40,7 @@ code {
 }
 
 .menu a:hover {
-  background-color: #c81000;
+  background-color: #009DDA;
   color: #fff;
   padding: 2px;
 }
@@ -74,7 +75,7 @@ form {
   justify-content: space-between;
   width: 1200px;
   margin: 0 auto;
-  border: 1px solid #ccc;
+  border: 1px solid #009DDA;
   border-radius: 4px;
   padding: 20px;
   transform-origin: center;
@@ -102,7 +103,7 @@ input[type="submit"],
 
   width: 25%;
   padding: 10px;
-  background-color: #c81000;
+  background-color: #009DDA;
   color: white;
   font-size: 14px;
   font-weight: bold;
@@ -110,6 +111,7 @@ input[type="submit"],
   border-radius: 4px;
   cursor: pointer;
 }
+
 
 p {
   margin: 10px 0;

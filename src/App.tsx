@@ -10,14 +10,12 @@ if (localStorage.getItem("fav") === null || localStorage.getItem("fav") === unde
 const App = () => (
     
     <div className="App">
-        <div className= "HeaderB">
         <Menu items={[
             { label: "Recherche de vols", to: '/' },
             { label: "Recherche d'aéroports", to: '/airports' },
             { label: "Favoris", to: "/fav" }
         ]} />
         <Outlet />
-        </div>
     </div>
 );
 
